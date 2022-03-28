@@ -2,10 +2,6 @@
 provider "azurerm" {
   version = "=2.92"
   features {} #This is required for v2 of the provider even if empty or plan will fail
-    subscription_id = var.subscription_id
-  tenant_id       = var.tenant_id
-client_id = var.client_id
-client_secret = var.client_secret
 }
 
 resource "azurerm_resource_group" "rg27032022" {
