@@ -3,7 +3,6 @@ provider "azurerm" {
   version = "=2.92"
   features {} #This is required for v2 of the provider even if empty or plan will fail
 
-
 }
 
 resource "azurerm_resource_group" "rg27032022" {
